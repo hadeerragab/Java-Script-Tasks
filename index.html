@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+
+    <label class="m-4" for="Word">Enter Any Word</label>
+    <input id="UserInput" class="form-control col-4 m-4" id="Word" type="text" pattern="[A-Za-z].{3,}" title="atleast 3 char" placeholder="Type something..." required>
+    <button class="btn btn-primary m-4" onclick="generateString()" type="submit" >Confirm</button>
+
+
+    <div id="result" class="m-4">
+
+    </div>
+
+    <script src="Js/script.js"></script>
+    <script src="Js/jquery-3.7.1.min.js"></script>
+    <script src="Js/popper.min.js"></script>
+</body>
+</html>
